@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Primera Aplicacion</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/app7.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link rel="stylesheet" type="text/css" href="visor/engine1/style.css" />
+	<script type="text/javascript" src="visor/engine1/jquery.js"></script>
+</head>
+
+
+<body onLoad="MM_preloadImages('imagenes/cambio-climatico--644x362.jpg','imagenes/soluciones-y-consecuencias-del-cambio-climtico-1-728.jpg','imagenes/Benito.jpg','imagenes/Lorencez.jpg','imagenes/descarga.jpg','imagenes/diaz_porfirio_2.jpg','imagenes/1437979547.jpg','imagenes/142715854425.jpg','imagenes/1862-Mayo5a.jpg','imagenes/fdgh.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>5 DE MAYO</h1>
+  </div>
+     <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>INICIO DE LA BATALLA</h2>
+    
+         </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>PERSONAJES MAS SOBRESALIENTES  </h2>
+        
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>DESARROLLO DE LA BATALLA</h2>
+         
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>LUGARES DE BATALLA </h2>
+           
+               </a>
+                   <li class="ui-first-child ui-last-child">
+           <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>4 DE MAYO</h2>
+         
+           </a>
+           </li>
+                <li class="ui-first-child ui-last-child">
+           <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>5 DE MAYO(otras celebraciones)</h2>
+         
+           </a>
+           </li>
+              <li class="ui-first-child ui-last-child">
+           <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>CONCLUSIÓN</h2>
+         
+           </a>
+           </li>
+                 </ul>
+                 </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Siete</h4>
+    <img src="imagenes/mexico.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>FECHA </h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+<body style="background-color:#d7d7d7">
+	<!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="visor/data1/images/5demayo.jpg" alt="5-de-mayo" title="5-de-mayo" id="wows1_0"/></li>
+<li><img src="visor/data1/images/1862mayo5a.jpg" alt="1862-Mayo5a" title="1862-Mayo5a" id="wows1_1"/></li>
+<li><img src="visor/data1/images/5demayo2.jpg" alt="5-de-mayo2" title="5-de-mayo2" id="wows1_2"/></li>
+<li><img src="visor/data1/images/art.jpg" alt="art" title="art" id="wows1_3"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="5-de-mayo"><img src="visor/data1/tooltips/5demayo.jpg" alt="5-de-mayo"/>1</a>
+<a href="#" title="1862-Mayo5a"><img src="visor/data1/tooltips/1862mayo5a.jpg" alt="1862-Mayo5a"/>2</a>
+<a href="#" title="5-de-mayo2"><img src="visor/data1/tooltips/5demayo2.jpg" alt="5-de-mayo2"/>3</a>
+<a href="#" title="art"><img src="visor/data1/tooltips/art.jpg" alt="art"/>4</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">Images Slider</a> by WOWSlider.com v4.8</span>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+    <p>
+    La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, sólo la retrasó, sin embargo, sería la primera batalla de una guerra que finalmente México ganaría. Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días), y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano.</p>
+    </div>
+    </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Siete</h4>
+    <img src="imagenes/mexico.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+   </div>
+   </div>
+   
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>PERSONAJES</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>Benito Juárez</h1>
+          <div>
+          <p>Benito Pablo Juárez García, nació en San Pablo Guelatao, Oaxaca un 21 de marzo de 1806, engalanando las filas de la política mexicana dentro del Partido Liberal. Abogado de profesión, ocupo el cargo de Presidente de México en varias ocasiones, en 1858 y posteriormente en 1872. A pasado a la historia como el “Benemérito de las Américas y se le recuerda por la celebre frase: Entre los individuos, como entre las naciones, el respeto al derecho ajeno es la paz. </p>
+          <br>
+          </div>
+   <div>  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/Benito.jpg',1)"><img src="imagenes/selfie-mono-juarez-blog.jpg" width="80%" height="80%" id="Image10"></a></div> </div>
+    
+     
+     
+     <div data-role="collapsible" data-content-theme="false">
+        <h1>Charles Ferdinand Latrille</h1>
+          <div>
+          <p>Charles Ferdinand Latrille, Comte de Lorencez, nació en París un 23 de mayo de 1814, ingresa a la Escuela Militar Especial de Saint-Cyr en 1830, siendo promovido al puesto en 1832. Su primera encomienda la tiene en Argelia, obteniendo el grado de Coronel en 1852 y luego el de General de Brigada en 1855 durante guerra de Crimea. </p>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/Lorencez.jpg',1)"><img src="imagenes/Maximiliano-habsburgo-emperador.jpg" width="80%" height="80%" id="Image11"></a>
+          </div>
+        </div>
+          
+          
+           <div data-role="collapsible" data-content-theme="false">
+        <h1>Ignacio Mejia Álvarez</h1>
+          <div>
+          <p>Ignacio Mejía Álvarez, nació en Oaxaca el 4 de agosto de 1814. Reconocido militar y político mexicano participó en la Primera Intervención Estadounidense en México, además de la Guerra de Reforma y otras guerras civiles.</p>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/descarga.jpg',1)"><img src="imagenes/6_Jorge_montt_alvarez.jpg" width="80%" height="80%" id="Image12"></a> </div>
+          </div>
+           <div data-role="collapsible" data-content-theme="false">
+        <h1>Porfirio Díaz</h1>
+          <div>
+          <p>José de la Cruz Porfirio Díaz Morí, nació en Oaxaca; hijo de José de la Cruz Díaz y Petrona Mori. Huérfano a los tres años, aún niño, trabajó para ayudar a su madre en el sostenimiento del hogar. Estudio de leyes. En 1846 se alistó en la Guardia Nacional para combatir la invasión estadunidense, pero no intervino en la lucha.</p>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/diaz_porfirio_2.jpg',1)"><img src="imagenes/Porfirio.jpg" width="80%" height="80%" id="Image13"></a> 
+          </div>
+          </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Siete</h4>
+    <img src="imagenes/mexico.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+       </div>
+      </div>
+     
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>DESARROLLO DE LA BATALLA</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+   <p>Asegurado el paso de Acultzingo, el 2 de mayo de 1862 la columna principal del ejército expedicionario francés salió de San Agustín del Palmar, en Veracruz, para cruzar la Sierra Madre Oriental y dirigirse hacia Puebla, paso obligado para llegar a la capital del país y que era además uno de los bastiones del Partido Conservador, donde esperaban ser recibidos "con una lluvia de rosas", como le aseguró Saligny a Napoleón III en una carta.4 El 3 de mayo por la noche, el general Zaragoza arribó a Puebla, dejando en su retaguardia una brigada de caballería para hostigar a los invasores. Los efectivos del Ejército de Oriente se organizaron por las calles desiertas de la ciudad, ya que la mayoría de la población era partidaria de la invasión.5</p>
+   <iframe width="70%" height="70%" src="https://www.youtube.com/embed/gfJjtQwD4Bg" frameborder="0" allowfullscreen></iframe>
+</div>
+      </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Siete</h4>
+    <img src="imagenes/mexico.png" width="46" height="46">
+   
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+     </div>
+    </div>
+    
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>LUGARES DE BATALLA</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>Acultzingo</h1>
+      
+<div>
+
+<p> el 2 de mayo de 1862 la columna principal del ejército expedicionario francés salió de San Agustín del Palmar, en Veracruz, para cruzar la Sierra Madre Oriental y dirigirse hacia Puebla</p>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/tc8uG9fLAQk" frameborder="0" allowfullscreen></iframe>
+</div>
+    </div>
+  </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1> Fuertes de Loreto y Guadalupe </h1>
+<p>El centro de la línea lo ocuparon Felipe Berriózabal y Francisco Lamadrid con las tropas del Estado de México y San Luis Potosí. La izquierda se apoyó en el cerro de Acueyametepec ubicado en el norte de la ciudad y en cuya cumbre se ubicaban los Fuertes de Loreto y Guadalupe</p>
+<p></p>
+<iframe width="70%" height="70%" src="https://www.youtube.com/embed/MlWruPW6GrU" frameborder="0" allowfullscreen></iframe>
+</div>
+   </div>
+
+
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Siete</h4>
+    <img src="imagenes/mexico.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+   </div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>ADONDE LLEVO LA BATALLA</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+   <p>El 4 de mayo, los exploradores mexicanos volvieron con noticias de que una columna de conservadores a caballo, al mando de Leonardo Márquez y José María Cobos, marchaba por la zona de Atlixco para unirse con las fuerzas de Lorencez en el ataque a Puebla. Zaragoza envió una brigada de 2000 hombres bajo el mando de Tomás O'Horán y Antonio Carbajal, con el fin de detenerlo, lo cual lograron. Aunque sus fuerzas habían disminuido, los mexicanos se prepararon para la defensa de Puebla. Contaban con dos baterías de artillería de batalla y dos de montaña, cubriendo los fuertes con 1200 hombres y formando a otros 3500 en cuatro columnas de infantería con una batería de batalla y una brigada de caballería por el lado del camino a Amozoc.El ala derecha mexicana la cubrían las tropas de Oaxaca dirigidas por Porfirio Díaz. El centro de la línea lo ocuparon Felipe Berriózabal y Francisco Lamadrid con las tropas del Estado de México y San Luis Potosí. La izquierda se apoyó en el cerro de Acueyametepec ubicado en el norte de la ciudad y en cuya cumbre se ubicaban los Fuertes de Loreto y Guadalupe, con el general Miguel Negrete a la cabeza de la Segunda División de Infantería. La artillería sobrante la colocaron en los fortines y reductos dentro de Puebla, quedando al mando del general Santiago Tapia.</p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/fdgh.jpg',1)"><img src="imagenes/1862-Mayo5a.jpg" width="70%" height="50%" id="Image"></a></div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Siete</h4>
+    <img src="imagenes/mexico.png" width="46" height="46">
+   
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+     </div>
+    </div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>LUGARES DE CELEBRACION</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+    <h3>En muchas ciudades de Estados Unidos se realizan diversos festivales en donde se reúnen integrantes de los consulados, mariachis, bandas mexicanas, restaurantes, artesanos y la población inmigrante que ahí habita.</h3>
+   <p></p>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1> Nueva York </h1>
+      
+<div>
+
+<p> se realiza el Cinco de Mayo Parade en Central Park, donde además del desfile de trajes regionales típicos se realiza una recaudación de fondos para estudiantes mexicanos de nivel superior. Previo al desfile se realizan concursos en diferentes ciudades para encontrar a las mujeres que durante la celebración representarán a Miss Cinco de Mayo. Tal es la euforia que este festejo genera en la comunidad mexicana que habita en Estados Unidos que también hay convocatoria para que las niñas menores de 4 años participen en «Pequeña Cinco de Mayo».5</p>
+  <iframe width="70%" height="70%" src="https://www.youtube.com/embed/pIpn9if33oU" frameborder="0" allowfullscreen></iframe>
+   </div>
+    </div>
+  </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>  Los Ángeles, California</h1>
+<p> Justo en esta ciudad la Unión de Poblanos en el Exterior organiza un festival con ceremonias cívicas y culturales. El viernes 3 de mayo del 2013 en el festejo de la Placita Olvera se reconoció al Dr. David Hayes Bautista, profesor de UCLA, por la publicación de su libro ‘Cinco de Mayo: An American Tradition’ y por su labor de investigación sobre el contexto histórico del Cinco de Mayo.</p>
+<iframe width="70%" height="70%" src="https://www.youtube.com/embed/nXV_6B0yvSM" frameborder="0" allowfullscreen></iframe>
+</div>
+   </div>
+
+</div>
+      </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Siete</h4>
+    <img src="imagenes/mexico.png" width="46" height="46">
+   
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+     </div>
+    </div>
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>ADONDE LLEVO LA BATALLA</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+   <p>Antes de haber escrito este trabajo no sabía tanto aceca de esta batalla, ni lo que realmente significó.Pienso que, si, en efecto, nos sirvió bastante para devolvernos el orgullo que años atrás Estados Unidos nos había quitado. Los que más me impresionó fue como el ejército más poderoso del mundo, con su disciplina, y sus armas, pudo haber sido vencido por unos indios, que, sólo tenían unos machetes y el amor por la patria). Si esta batalla se hubiera perdido todo en nuestra historia, particularmente en la de Puebla, habría sido distinto. Es importante decir, que a Ignacio Zaragoza se le hace alarde de algo que él no hizo, pelear en el campo de batalla y derramar su sangre por la patria. Si, fue una figura importante en esta batalla pero, según entiendo nunca estuvo en el campo e batalla.
+Esta batalla a fin de cuentas, no sirvió de nada, porque, un escaso año más tarde los franceses nos ganaron. Lo que en mi opinión si tubo mucho valor, fue que pudimos decir, como en el fútbol: “Sí se puede”, y eso nos devolvió nuestro orgullo y nuestro honor.</p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/1862-Mayo5a.jpg',1)"><img src="imagenes/5-de-mayo.jpg" width="70%" height="50%" id="Image22"></a></div>
+  <br>
+<a href="http://http://html.rincondelvago.com/batalla-del-5-de-mayo-de-1862.html/">Da click para ver mas informacion</a>
+<br> 
+      </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Siete</h4>
+    <img src="imagenes/mexico.png" width="46" height="46">
+   
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+     </div>
+    </div>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <widget xmlns  = "http://www.w3.org/ns/widgets"
+	xmlns:gap  = "http://phonegap.com/ns/1.0"
+	id = "com.phonegap.example7"
+	versionCode = "10"
+	version = "1.0.0">
+
+  <!-- Colocar icono app -->	
+	
+	<name>Aplicacion  5 DE MAYO</name>
+	
+	<description>
+	  Aplicacion que ACONTECIMIENTO DEL 5 DE MAYO
+	</description>
+	  
+	  <preference name="phonegap-version" value="3.1.0" />
+	  
+	  <author href="https://build.phonegap.com" email="support@phonegap.com">
+		OSCAR JOSMAR MARTINEZ PICAZO
+	  </author>
+	  
+<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+		  <gap:plugin name="org.apache.cordova.vibration" version="0.3.0" />
+<gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
+
+
+  <!-- Colocar icono app -->
+  
+<icon src="res/android/mdpi.png" />
+</widget>
